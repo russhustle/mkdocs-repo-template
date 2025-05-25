@@ -3,7 +3,7 @@ site_url: https://github.com/russhustle/mkdocs-repo-template
 site_author: Sihan A
 site_description: A template for creating a documentation site with MkDocs.
 repo_url: https://github.com/russhustle/mkdocs-repo-template
-copyright: Copyright &copy; 2024 Sihan A
+copyright: Copyright &copy; 2023-2025 Sihan A
 
 ##############################################
 ######      Navigation configuration    ######
@@ -131,5 +131,6 @@ extra_javascript:
     - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
+    - utils/extra.css
     - utils/unordered-list-symbols.css
     - utils/ordered-list-symbols.css

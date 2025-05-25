@@ -1,0 +1,22 @@
+img:not(.md-header__button.md-logo img) {
+    border: 1px solid black;
+    /* image width 500px */
+    /* width: 500px; */
+}
+
+/* underline */
+u,
+underline {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-underline-offset: 0.3em;
+}
+
+/* generate for bold texts with red color */
+strong,
+b {
+    font-weight: bold;
+    color: red;
+}
