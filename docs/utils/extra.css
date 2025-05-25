@@ -1,4 +1,5 @@
-img:not(.md-header__button.md-logo img) {
+img:not(.md-header__button.md-logo img):not([src^="https://img.shields.io/"])
+{
     border: 1px solid black;
     /* image width 500px */
     /* width: 500px; */
